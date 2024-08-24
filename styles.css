@@ -3,8 +3,8 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 20px;
-    background-color: #050505;
-    color: white;
+    background-color: #050505; /* changes the background color. */
+    color: white;  /* changes the body font color. */
 }
 
 header {
