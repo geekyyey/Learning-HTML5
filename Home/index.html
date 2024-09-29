@@ -112,9 +112,9 @@
         <!-- Contact Form Section -->
         <section id="contact">
             <div class="contact-form">
-                <h2>Contact Me</h2>
+                <h2>Keep in touch with me!</h2>
 
-                <! -- using Formspree -->
+                <!-- using Formspree -->
 
 
             <form id="contactForm" action="https://formspree.io/f/xqazrdnp" method="POST" onsubmit="return validateForm();">
@@ -134,12 +134,12 @@
         </section>
     </main>
 
-    <!-- JavaScript to Validate the Form -->
+    <!-- JavaScript to Validate the contact Form -->
     <script>
         function validateForm() {
             const name = document.getElementById("name").value;
             const email = document.getElementById("email").value;
-            const message = dcoument.getElementById("message").value;
+            const message = document.getElementById("message").value;
 
             if (name === "" || email === "" || message === "") {
                 alert("Name and email fields cannot be empty!");
