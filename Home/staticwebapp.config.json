@@ -1,12 +1,9 @@
 {
-    "routes": [
-
+  "routes": [
     {
-        "route": "/*",
-        "redirect": "https://www.geekyyey.io",
-        "statusCode": 301
+      "route": "/*",
+      "redirect": "https://www.geekyyey.io",
+      "statusCode": 301
     }
-
   ]
-
 }
