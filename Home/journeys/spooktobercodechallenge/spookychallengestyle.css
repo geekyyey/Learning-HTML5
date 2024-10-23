@@ -1,14 +1,15 @@
 h1 {
-    color: black; /* font color of Happy Halloween! */
-    text-align: center; /* Center the heading */
+    color: black; /* font color of the fun title */
+    text-align: center; /* Center the heading of the title*/
     font-size: 50px; /* Increase the font size */
-    margin-bottom: 20px; /* Add space between the heading and the cats */
+    margin-bottom: 20px; /* Adds space between the heading and the cats */
   }
   
   
 
 body {
     display: flex;
+    flex-direction: column; /* Added this code so that the title would be center since  the display: flex; on the body element, which it was making both the <h1> and the .cats container align side by side because the default flexbox behavior is to align children horizontally unless otherwise specified. */
     justify-content: center;
     align-items: center;
     height: 100vh;
