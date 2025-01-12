@@ -1,5 +1,5 @@
 # Notes for YeyLearningRuby
-# Created new folder:
+Created new folder:
 cd ~/Documents
 mkdir yeylearningruby
 cd yeylearningruby
