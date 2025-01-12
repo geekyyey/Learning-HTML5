@@ -39,6 +39,3 @@ configured VS Code for Ruby
 Ruby Path: /usr/bin/ruby
 
 The website HTML files are hosted in https://github.com/geekyyey/Learning-HTML5, cloned the repository 
-git clone https://github.com/geekyyey/Learning-HTML5.git
-copied files: cp -r Learning-HTML5/* ./
-Testing
