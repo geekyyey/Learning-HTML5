@@ -1,0 +1,6 @@
+[2025-01-12 17:23:35.081 github W] Failed to load session
+[2025-01-12 17:23:35.098 Command:liveshare.signin E] Command [Signing in]: ExplicitSignIn Non Blocking Failure: Authentication check returned false. (42ms)
+[2025-01-12 17:23:35.098 Command:liveshare.signin E] Error: Authentication check returned false.
+	at AuthenticationCommandDecorator.<anonymous> [PATH]/extension.js:1:450409)
+	at Generator.next (<anonymous>)
+	at fulfilled [PATH]/extension.js:1:447742)
