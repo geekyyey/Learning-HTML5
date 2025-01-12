@@ -1,8 +1,9 @@
+/* style for title happy halloween and second title */
 h1 {
-    color: black; /* font color of the fun title */
-    text-align: center; /* Center the heading of the title*/
-    font-size: 50px; /* Increase the font size */
-    margin-bottom: 20px; /* Adds space between the heading and the cats */
+    color: black; 
+    text-align: center; 
+    font-size: 50px; 
+    margin-bottom: 20px; 
   }
   
   
@@ -19,7 +20,7 @@ body {
   
   .cats {
     display: flex;
-    gap: 20px; /* Adds space between the cats */
+    gap: 20px; 
   }
   
   .cat {
@@ -94,7 +95,7 @@ body {
     border-radius: 0 0 20px 20px;
   }
   
-  /* General whiskers styling */
+  /* whiskers */
   .whiskers {
     width: 50px;
     height: 3px;
@@ -102,7 +103,7 @@ body {
     position: absolute;
   }
   
-  /* Left whiskers positioning */
+  /* Left whiskers */
   .left-whiskers-1 {
     left: -35px;
     top: 80px;
@@ -118,7 +119,7 @@ body {
     top: 100px;
   }
   
-  /* Right whiskers positioning */
+  /* Right whiskers */
   .right-whiskers-1 {
     right: -30px;
     top: 90px;
@@ -133,12 +134,12 @@ body {
     right: -20px;
     top: 100px;
   }
-  /* Special styling for the first and third cat (gray cat) */
+  /* first and third cat (gray cats) */
 .gray-cat .head, .gray-cat .ear {
-    background-color: gray; /* Change the color of the head and ears */
+    background-color: gray;
   }
   
   .gray-cat .nose {
-    background-color: burlywood; /* Slightly darker gray for the nose */
+    background-color: burlywood; 
   }
   

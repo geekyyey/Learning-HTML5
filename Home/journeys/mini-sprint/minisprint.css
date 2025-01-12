@@ -1,0 +1,39 @@
+
+p {
+    color: green;
+}
+
+h1 {
+  color: magenta;
+}
+
+.title {
+    color:crimson;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+#article-title {
+    font-family: cursive;
+}
+
+h1,h2,h3,h4 {
+    font-family: Georgia;
+}
+
+p {
+    font-family: Helvetica;
+}
+p {
+    font-size: 18px;
+  }
+  p {
+    font-weight: bold;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 60px;
+  }
