@@ -2,7 +2,8 @@
   "routes": [
     {
       "route": "/*",
-      "rewrite": "/Home/index.html"
+      "redirect": "https://www.geekyyey.io",
+      "statusCode": 301
     }
   ]
 }
